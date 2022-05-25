@@ -33,7 +33,7 @@ def str_2_datetime(date_string):
     В ней надо заменить pass на ваш код
     """
     date_string = datetime.strptime(date_string, '%d/%m/%y %H:%M:%S.%f')
-    print(date_string)
+    return date_string
     
 if __name__ == "__main__":
     print_days()
